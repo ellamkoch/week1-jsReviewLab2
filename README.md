@@ -1,13 +1,20 @@
 # week1-jsReviewLab2
 The objective this lesson is to learn to use JavaScript functions, conditionals, and booleans by building a fortune-telling program based on a user's name and age.
 
+## About the project
+This project is a simple fortune-telling app built with JavaScript.
+
 ## Files
-[x]index.html
-[x]readme.md
-[x]script.js
+- index.html  
+- readme.md  
+- script.js
 
 ## How it works
-Based on Name and Age, a person's fortune is told. 
+It uses if statements, variables and string concatenation to generate a fortune based on the user's name and age that are input. Based on the Name and Age that are input by the user, a person's fortune is told. 
+
+This project includes 2 verions
+-Prompt based - this is commented out but can be seen in the js file. 
+-Bonus version - added a basic web page with inputs and a button so users can interact directly within the browser. 
 
 ### Name-based fortune possibilities
 -Longer than 7 letters → “will travel the world and collect many stories.”
@@ -23,4 +30,7 @@ Based on Name and Age, a person's fortune is told.
 -Over 60 → “will enjoy laughter and peace in abundance.”
 
 ## What I Learned
-- 
+- I learned about how to set prompts to collect information. 
+- I learned how to change a prompt so it converts input into a number so it works with the rules on the page. 
+- For the bonus, I learned how to set up the page to be a form to collect the information required and to show the results of the data selections based on variables set within the js. 
+- I learned how to weave together the 2 result lines so they read like a proper sentence.
