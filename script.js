@@ -1,6 +1,7 @@
 //create fortuneteller function
 function fortuneTeller(name, age) {
     let nameWithAge = '';
+
     // name rules
     if(name.length > 7) { // more than 7 letters message
         nameWithAge += `${name} will travel the world and collect many stories and `;
@@ -34,12 +35,20 @@ function fortuneTeller(name, age) {
         nameWithAge += `will enjoy laughter and peace in abundance.`;
     }
     // return name and age
-    nameWithAge += `Name: ${name} and Age: ${age}`;
+    nameWithAge += ` Name: ${name} and Age: ${age}`;
 
     return nameWithAge;
 }
-let userName = prompt(`What is your name?`);
-let userAge = prompt(`How old/young do you feel?`)*1; // Converts input to a number
+// commented these out to go for the bonus
+//let userName = prompt(`What is your name?`);
+//let userAge = prompt(`How old/young do you feel?`)*1; // Converts input to a number
 
-console.log(fortuneTeller(userName, userAge));
+//console.log(fortuneTeller(userName, userAge));
 
+// Bonus code for function 
+function showFortune() {
+  const name = document.getElementById("name").value;
+  const age = document.getElementById("age").value * 1; //*1 converts input to a number
+  const result = fortuneTeller(name, age);
+  document.getElementById("fortuneResult").innerText = result;
+}
