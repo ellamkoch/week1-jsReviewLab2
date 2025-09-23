@@ -13,15 +13,7 @@ function fortuneTeller(name, age) {
         nameWithAge += `${name} will cross paths with a mysterious stranger and `;
     }
 
-    if (name[0].toUpperCase() === 'E') { // case insensitive check for 'E' message
-        nameWithAge += `${name} will always land on their feet, like a cat and `;
-    }
-
-    if (name.toLowerCase().includes('u')) { // case insensitive check for 'u' message
-        nameWithAge += `${name} will discover a hidden talent and `;
-    }
-    
-
+ 
     // age rules
     if (age < 18) { // under 18 message
         nameWithAge += `will master a skill that surprises everyone.`;
